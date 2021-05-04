@@ -13,9 +13,9 @@ class XylophoneApp extends StatelessWidget {
     return Expanded(
       // ignore: deprecated_member_use
       child: FlatButton(
-        color: Colors.red,
+        color: color,
         onPressed: () {
-          playSound(1);
+          playSound(soundNumber);
         },
         child: null,
       ),
