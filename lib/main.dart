@@ -58,6 +58,7 @@ class XylophoneApp extends StatelessWidget {
               ),
               // ignore: deprecated_member_use
               FlatButton(
+                color: Colors.blue,
                 onPressed: () {
                   final player = AudioCache();
                   player.play('note6.wav');
