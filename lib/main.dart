@@ -21,7 +21,13 @@ class XylophoneApp extends StatelessWidget {
                 child: null,
               ),
               // ignore: deprecated_member_use
-              FlatButton(color: Colors.orange, onPressed: () {}, child: null),
+              FlatButton(
+                  color: Colors.orange,
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note2.wav');
+                  },
+                  child: null),
             ],
           ),
         ),
