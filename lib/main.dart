@@ -28,8 +28,7 @@ class XylophoneApp extends StatelessWidget {
               FlatButton(
                 color: Colors.orange,
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note2.wav');
+                  playSound();
                 },
                 child: null,
               ),
@@ -37,8 +36,7 @@ class XylophoneApp extends StatelessWidget {
               FlatButton(
                 color: Colors.yellow,
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note3.wav');
+                  playSound();
                 },
                 child: null,
               ),
@@ -46,8 +44,7 @@ class XylophoneApp extends StatelessWidget {
               FlatButton(
                 color: Colors.green[600],
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note4.wav');
+                  playSound();
                 },
                 child: null,
               ),
@@ -55,8 +52,7 @@ class XylophoneApp extends StatelessWidget {
               FlatButton(
                 color: Colors.teal[600],
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note5.wav');
+                  playSound();
                 },
                 child: null,
               ),
@@ -64,8 +60,7 @@ class XylophoneApp extends StatelessWidget {
               FlatButton(
                 color: Colors.blue,
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note6.wav');
+                  playSound();
                 },
                 child: null,
               ),
@@ -73,8 +68,7 @@ class XylophoneApp extends StatelessWidget {
               FlatButton(
                 color: Colors.purple,
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note7.wav');
+                  playSound();
                 },
                 child: null,
               ),
