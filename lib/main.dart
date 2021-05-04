@@ -37,13 +37,15 @@ class XylophoneApp extends StatelessWidget {
                   child: null,
                 ),
               ),
-              // ignore: deprecated_member_use
-              FlatButton(
-                color: Colors.yellow,
-                onPressed: () {
-                  playSound(3);
-                },
-                child: null,
+              Expanded(
+                // ignore: deprecated_member_use
+                child: FlatButton(
+                  color: Colors.yellow,
+                  onPressed: () {
+                    playSound(3);
+                  },
+                  child: null,
+                ),
               ),
               // ignore: deprecated_member_use
               FlatButton(
