@@ -9,13 +9,15 @@ class XylophoneApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: SafeArea(
-          // ignore: deprecated_member_use
-          child: FlatButton(
-            onPressed: () {
-              final player = AudioCache();
-              player.play('note1.wav');
-            },
-            child: Text('Click Me!'),
+          child: Center(
+            // ignore: deprecated_member_use
+            child: FlatButton(
+              onPressed: () {
+                final player = AudioCache();
+                player.play('note1.wav');
+              },
+              child: Text('Click Me!'),
+            ),
           ),
         ),
       ),
