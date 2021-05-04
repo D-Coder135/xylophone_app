@@ -9,6 +9,19 @@ class XylophoneApp extends StatelessWidget {
     player.play('note$soundNumber.wav');
   }
 
+  Expanded buildMusicKey() {
+    return Expanded(
+      // ignore: deprecated_member_use
+      child: FlatButton(
+        color: Colors.red,
+        onPressed: () {
+          playSound(1);
+        },
+        child: null,
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -88,19 +101,6 @@ class XylophoneApp extends StatelessWidget {
             ],
           ),
         ),
-      ),
-    );
-  }
-
-  Expanded buildMusicKey() {
-    return Expanded(
-      // ignore: deprecated_member_use
-      child: FlatButton(
-        color: Colors.red,
-        onPressed: () {
-          playSound(1);
-        },
-        child: null,
       ),
     );
   }
