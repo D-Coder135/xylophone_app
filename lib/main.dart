@@ -19,7 +19,12 @@ class XylophoneApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               buildMusicKey(),
-
+              buildMusicKey(),
+              buildMusicKey(),
+              buildMusicKey(),
+              buildMusicKey(),
+              buildMusicKey(),
+              buildMusicKey(),
               // Expanded(
               //   // ignore: deprecated_member_use
               //   child: FlatButton(
