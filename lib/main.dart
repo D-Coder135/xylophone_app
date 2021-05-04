@@ -17,13 +17,15 @@ class XylophoneApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: <Widget>[
-              // ignore: deprecated_member_use
-              FlatButton(
-                color: Colors.red,
-                onPressed: () {
-                  playSound(1);
-                },
-                child: null,
+              Expanded(
+                // ignore: deprecated_member_use
+                child: FlatButton(
+                  color: Colors.red,
+                  onPressed: () {
+                    playSound(1);
+                  },
+                  child: null,
+                ),
               ),
               // ignore: deprecated_member_use
               FlatButton(
