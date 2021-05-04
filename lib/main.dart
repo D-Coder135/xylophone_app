@@ -47,6 +47,11 @@ class XylophoneApp extends StatelessWidget {
                 },
                 child: null,
               ),
+              // ignore: deprecated_member_use
+              FlatButton(
+                onPressed: () {},
+                child: null,
+              ),
             ],
           ),
         ),
