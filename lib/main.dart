@@ -18,16 +18,7 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              Expanded(
-                // ignore: deprecated_member_use
-                child: FlatButton(
-                  color: Colors.red,
-                  onPressed: () {
-                    playSound(1);
-                  },
-                  child: null,
-                ),
-              ),
+              buildMusicKey(),
               Expanded(
                 // ignore: deprecated_member_use
                 child: FlatButton(
@@ -91,6 +82,19 @@ class XylophoneApp extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+
+  Expanded buildMusicKey() {
+    return Expanded(
+      // ignore: deprecated_member_use
+      child: FlatButton(
+        color: Colors.red,
+        onPressed: () {
+          playSound(1);
+        },
+        child: null,
       ),
     );
   }
