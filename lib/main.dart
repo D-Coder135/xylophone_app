@@ -31,7 +31,7 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              buildMusicKey(),
+              buildMusicKey(color: Colors.red, soundNumber: 1),
               buildMusicKey(),
               buildMusicKey(),
               buildMusicKey(),
