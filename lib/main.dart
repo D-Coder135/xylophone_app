@@ -37,7 +37,12 @@ class XylophoneApp extends StatelessWidget {
                   player.play('note3.wav');
                 },
                 child: null,
-              )
+              ),
+              // ignore: deprecated_member_use
+              FlatButton(
+                onPressed: () {},
+                child: null,
+              ),
             ],
           ),
         ),
