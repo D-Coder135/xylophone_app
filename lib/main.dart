@@ -19,66 +19,67 @@ class XylophoneApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               buildMusicKey(),
-              Expanded(
-                // ignore: deprecated_member_use
-                child: FlatButton(
-                  color: Colors.orange,
-                  onPressed: () {
-                    playSound(2);
-                  },
-                  child: null,
-                ),
-              ),
-              Expanded(
-                // ignore: deprecated_member_use
-                child: FlatButton(
-                  color: Colors.yellow,
-                  onPressed: () {
-                    playSound(3);
-                  },
-                  child: null,
-                ),
-              ),
-              Expanded(
-                // ignore: deprecated_member_use
-                child: FlatButton(
-                  color: Colors.green[600],
-                  onPressed: () {
-                    playSound(4);
-                  },
-                  child: null,
-                ),
-              ),
-              Expanded(
-                // ignore: deprecated_member_use
-                child: FlatButton(
-                  color: Colors.teal[600],
-                  onPressed: () {
-                    playSound(5);
-                  },
-                  child: null,
-                ),
-              ),
-              Expanded(
-                // ignore: deprecated_member_use
-                child: FlatButton(
-                  color: Colors.blue,
-                  onPressed: () {
-                    playSound(6);
-                  },
-                  child: null,
-                ),
-              ),
-              Expanded(
-                // ignore: deprecated_member_use
-                child: FlatButton(
-                  color: Colors.purple,
-                  onPressed: () {
-                    playSound(7);
-                  },
-                  child: null,
-                ),
-              ),
+
+              // Expanded(
+              //   // ignore: deprecated_member_use
+              //   child: FlatButton(
+              //     color: Colors.orange,
+              //     onPressed: () {
+              //       playSound(2);
+              //     },
+              //     child: null,
+              //   ),
+              // ),
+              // Expanded(
+              //   // ignore: deprecated_member_use
+              //   child: FlatButton(
+              //     color: Colors.yellow,
+              //     onPressed: () {
+              //       playSound(3);
+              //     },
+              //     child: null,
+              //   ),
+              // ),
+              // Expanded(
+              //   // ignore: deprecated_member_use
+              //   child: FlatButton(
+              //     color: Colors.green[600],
+              //     onPressed: () {
+              //       playSound(4);
+              //     },
+              //     child: null,
+              //   ),
+              // ),
+              // Expanded(
+              //   // ignore: deprecated_member_use
+              //   child: FlatButton(
+              //     color: Colors.teal[600],
+              //     onPressed: () {
+              //       playSound(5);
+              //     },
+              //     child: null,
+              //   ),
+              // ),
+              // Expanded(
+              //   // ignore: deprecated_member_use
+              //   child: FlatButton(
+              //     color: Colors.blue,
+              //     onPressed: () {
+              //       playSound(6);
+              //     },
+              //     child: null,
+              //   ),
+              // ),
+              // Expanded(
+              //   // ignore: deprecated_member_use
+              //   child: FlatButton(
+              //     color: Colors.purple,
+              //     onPressed: () {
+              //       playSound(7);
+              //     },
+              //     child: null,
+              //   ),
+              // ),
             ],
           ),
         ),
